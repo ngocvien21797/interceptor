@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Trang người dùng</title>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(120deg, rgb(203, 208, 198), #3b82f6);
+      color: white;
+      text-align: center;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+    a {
+      display: inline-block;
+      margin: 15px;
+      padding: 12px 24px;
+      background: white;
+      color: #0ea5e9;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    a:hover {
+      background: rgb(218, 221, 227);
+      color: #fff;
+      transform: translateY(-3px);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Xin chào USER 👋</h1>
+    <p>Bạn đang đăng nhập với quyền người dùng.</p>
+    <a href="/admin/dashboard">Vào trang Admin</a>
+
+  </div>
+</body>
+</html>
